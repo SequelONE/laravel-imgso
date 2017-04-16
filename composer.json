@@ -1,0 +1,39 @@
+{
+    "name": "sequelone/imgso",
+    "description": "Библиотека преображения изображений Imgso для Laravel 5, основанная на библиотеке Imagine и вдохновленная Croppa для простой манипуляции с URL-адресами",
+    "keywords": ["laravel","image","imgso","imagick","gd","imagine","watermark","gmagick","thumbnail"],
+    "homepage": "http://github.com/SequelONE/laravel-imgso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sequelone",
+            "email": "admin@sequel.one",
+            "homepage": "http://sequel.one"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.1",
+        "guzzlehttp/guzzle": "5.3|~6.0",
+        "imagine/imagine": "0.6.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/orchestral/phpseclib.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "tests/ImgsoTestCase.php"
+        ],
+        "psr-0": {
+            "Sequelone\\Imgso\\": "src/",
+            "Sequelone\\Imgso\\Tests": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
