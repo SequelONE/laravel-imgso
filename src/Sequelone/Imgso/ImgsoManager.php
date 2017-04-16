@@ -7,9 +7,9 @@ use Sequelone\Imgso\Exception\FormatException;
 
 use Illuminate\Support\Manager;
 
-use Imagine\Imgso\ImgsoInterface;
-use Imagine\Imgso\Box;
-use Imagine\Imgso\Point;
+use Imagine\Image\ImageInterface;
+use Imagine\Image\Box;
+use Imagine\Image\Point;
 
 class ImgsoManager extends Manager
 {

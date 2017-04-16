@@ -1,5 +1,5 @@
 # Laravel Imgso
-Laravel Imgso пакет обработки изображений для Laravel 4 и 5 на основе библиотеки [PHP Imagine] (https://github.com/avalanche123/Imagine). Был вдохновлён разработкой [Croppa] (https://github.com/BKWLD/croppa), поскольку он может использовать специально отформатированные URL-адреса для выполнения манипуляций. Он поддерживает базовые манипуляции с изображениями, такие как изменение размера, обрезка, поворот и флип. Он также поддерживает такие эффекты, как негатив, оттенки серого, гамма, расцветка и размытие. Вы также можете определить пользовательские фильтры для большей гибкости.
+Laravel Imgso пакет обработки изображений для Laravel 4 и 5 на основе библиотеки [PHP Imagine](https://github.com/avalanche123/Imagine). Был вдохновлён разработкой [Croppa](https://github.com/BKWLD/croppa), поскольку он может использовать специально отформатированные URL-адреса для выполнения манипуляций. Он поддерживает базовые манипуляции с изображениями, такие как изменение размера, обрезка, поворот и флип. Он также поддерживает такие эффекты, как негатив, оттенки серого, гамма, расцветка и размытие. Вы также можете определить пользовательские фильтры для большей гибкости.
 
 [![Latest Stable Version](https://poser.pugx.org/sequelone/imgso/v/stable.svg)](https://packagist.org/packages/sequelone/imgso)
 [![Build Status](https://travis-ci.org/SequelONE/laravel-imgso.png?branch=master)](https://travis-ci.org/SequelONE/laravel-imgso)
@@ -50,9 +50,9 @@ $thumbnail->save('/path/to/the/thumbnail.jpg');
 
 ## Особенности
 
-Этот пакет использует [Imagine] (https://github.com/avalanche123/Imagine) для манипуляции с изображениями. Imagine совместим с GD2, Imagick, Gmagick и поддерживает множество функций (http://imagine.readthedocs.org/en/latest/).
+Этот пакет использует [Imagine](https://github.com/avalanche123/Imagine) для манипуляции с изображениями. Imagine совместим с GD2, Imagick, Gmagick и поддерживает множество функций (http://imagine.readthedocs.org/en/latest/).
 
-Этот пакет также содержит некоторые общие фильтры, готовые к использованию ([подробнее об этом] (https://github.com/SequelONE/laravel-imgso/wiki/Imgso-filters)):
+Этот пакет также содержит некоторые общие фильтры, готовые к использованию ([подробнее об этом](https://github.com/SequelONE/laravel-imgso/wiki/Imgso-фильтры)):
 - Ресайз изображений
 - Обрезка (с положением)
 - Вращение
@@ -132,7 +132,7 @@ config/imgso.php
 
 ## Документация
 * [Полная документация](https://github.com/SequelONE/imgso/wiki)
-* [Параметры конфигурации](https://github.com/SequelONE/imgso/wiki/Configuration-options)
+* [Параметры конфигурации](https://github.com/SequelONE/imgso/wiki/Настройка)
 
 ## Планы на будущее
 Вот некоторые функции, которые мы хотели бы добавить в будущем. Не стесняйтесь сотрудничать и улучшать эту библиотеку.
