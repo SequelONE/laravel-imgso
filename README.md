@@ -41,7 +41,7 @@ Imgso::make('/uploads/photo.jpg',array(
 
 ```php
 $thumbnail = Imgso::open('/uploads/photo.jpg')
-			->thumbnail(new Imagine\Imgso\Box(300,300));
+			->thumbnail(new Imagine\Image\Box(300,300));
 
 $thumbnail->effects()->grayscale();
 	
@@ -131,8 +131,8 @@ config/imgso.php
 ```
 
 ## Документация
-* [Полная документация](https://github.com/SequelONE/imgso/wiki)
-* [Параметры конфигурации](https://github.com/SequelONE/imgso/wiki/Настройка)
+* [Полная документация](https://github.com/SequelONE/laravel-imgso/wiki)
+* [Параметры конфигурации](https://github.com/SequelONE/laravel-imgso/wiki/Настройка)
 
 ## Планы на будущее
 Вот некоторые функции, которые мы хотели бы добавить в будущем. Не стесняйтесь сотрудничать и улучшать эту библиотеку.
