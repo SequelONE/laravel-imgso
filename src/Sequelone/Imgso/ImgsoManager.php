@@ -362,7 +362,7 @@ class ImgsoManager extends Manager
     public function format($path)
     {
 
-        $format = @exif_imgsotype($path);
+        $format = @exif_imagetype($path);
         switch ($format) {
             case IMAGETYPE_GIF:
                 return 'gif';
