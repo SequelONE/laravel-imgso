@@ -97,6 +97,12 @@ $thumbnail->save('/path/to/the/thumbnail.jpg');
 }
 ```
 
+или
+
+```bash
+composer require sequelone/imgso dev-master
+```
+
 **2-** Запустите Composer, чтобы установить или обновить новый пакет.
 
 ```bash
