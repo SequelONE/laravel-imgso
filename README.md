@@ -67,11 +67,12 @@ $thumbnail->save('/path/to/the/thumbnail.jpg');
 
  Laravel  | Imgso
 :---------|:----------
- 4.2.x    | 0.1.x
- 5.0.x    | 0.2.x
- 5.1.x    | 0.3.x
- 5.2.x    | 0.3.x
- 5.3.x    | 0.3.x
+ 4.2.x    | dev-master
+ 5.0.x    | dev-master
+ 5.1.x    | dev-master
+ 5.2.x    | dev-master
+ 5.3.x    | dev-master
+ 5.4.x    | dev-master
 
 ## Установка
 
@@ -91,7 +92,7 @@ $thumbnail->save('/path/to/the/thumbnail.jpg');
 ```json
 {
 	"require": {
-		"sequelone/imgso": "0.3.*"
+		"sequelone/imgso": "dev-master"
 	}
 }
 ```
